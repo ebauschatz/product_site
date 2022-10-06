@@ -1,0 +1,137 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Segoe UI;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    display: inline;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+}
+
+nav {
+    display: inline;
+}
+
+header {
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+}
+
+.large-line {
+    border-top: 3px solid #000000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    display: block;
+}
+
+.header-content {
+    display: flex;
+    height: 90px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-image {
+    height: 20px;
+    object-fit: contain;
+}
+
+.logo-image {
+    height: 40px;
+    object-fit: contain;
+}
+
+.center-item-vertically {
+    display: flex;
+    align-items: center;
+}
+
+.stack-bottom {
+    display: flex;
+    z-index: 1;
+}
+
+.stack-second {
+    display: flex;
+    z-index: 2;
+}
+
+.position-right {
+    position: relative;
+    right: 20px;
+}
+
+.section-header {
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.vertical-container {
+    display: flex;
+    align-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contained-image {
+    object-fit: contain;
+}
+
+.large-about-image {
+    height: 700px;
+    object-fit: contain;
+}
+
+.small-about-image {
+    height: 475px;
+    object-fit: contain;
+}
+
+.hundred-percent-image {
+    width: 100%;
+    object-fit: contain;
+}
