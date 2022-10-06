@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 html {
@@ -46,6 +46,10 @@ header {
     width: 100%;
 }
 
+footer {
+    background-color: #BF7631;
+}
+
 .large-line {
     border-top: 3px solid #000000;
     border-bottom: none;
@@ -53,6 +57,10 @@ header {
     border-right: none;
     padding: 10px;
     display: block;
+}
+
+.partial-line-span {
+    width: 60%;
 }
 
 .header-content {
@@ -117,8 +125,8 @@ header {
     padding-right: 20px;
 }
 
-.contained-image {
-    object-fit: contain;
+.about-text-padding {
+    padding-top: 40px;
 }
 
 .large-about-image {
@@ -128,6 +136,11 @@ header {
 
 .small-about-image {
     height: 475px;
+    object-fit: contain;
+}
+
+.footer-social-media-logo {
+    height: 60px;
     object-fit: contain;
 }
 
