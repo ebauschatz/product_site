@@ -6,12 +6,14 @@
     box-sizing: inherit;
 }
 
-body {
-    font-family: 'Segoe UI';
-}
-
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-size: 1.6rem;
 }
 
 ul {
@@ -48,6 +50,17 @@ header {
 
 footer {
     background-color: #BF7631;
+}
+
+button {
+    background-color: #BF7631;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+}
+
+.orange-text {
+    color: #BF7631;
 }
 
 .large-line {
@@ -106,23 +119,23 @@ footer {
     padding-bottom: 20px;
 }
 
-.container {
-    display: flex;
-}
-
 .vertical-container {
     display: flex;
-    align-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
     padding-left: 20px;
     padding-right: 20px;
-    flex-wrap: wrap;
 }
 
 .horizontal-container {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 20px;
-    padding-right: 20px;
+}
+
+.horizontal-container-justify-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-text-padding {
@@ -130,13 +143,38 @@ footer {
 }
 
 .large-about-image {
-    height: 700px;
+    height: 600px;
     object-fit: contain;
 }
 
 .small-about-image {
-    height: 475px;
+    height: 400px;
     object-fit: contain;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-areas: "top-l top top-r" "mid-l mid mid-r" "bot-l bot bot-r";
+    justify-content: space-around;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.product-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-actions {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-social-media-logo {
