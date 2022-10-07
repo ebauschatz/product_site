@@ -92,11 +92,6 @@ button {
     margin: 0px 75px;
 }
 
-.search-image {
-    height: 20px;
-    object-fit: contain;
-}
-
 .logo-image {
     height: 40px;
     object-fit: contain;
