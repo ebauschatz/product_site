@@ -1,0 +1,305 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI';
+    font-size: 1.6rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    display: inline;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 20px 32px 20px 0px;
+    text-decoration: none;
+}
+
+nav {
+    display: inline;
+}
+
+header {
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 100%;
+}
+
+footer {
+    background-color: #BF7631;
+    margin-top: 100px;
+}
+
+button {
+    background-color: #BF7631;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+}
+
+.standard-margin {
+    margin: 0px 75px;
+}
+
+.large-line {
+    border-top: 3px solid #000000;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    display: block;
+}
+
+.two-thirds-width {
+    width: 60%;
+}
+
+.one-third-width {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    height: 90px;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 75px;
+}
+
+.logo-image {
+    height: 40px;
+    object-fit: contain;
+}
+
+.center-item-vertically {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    background-color: #FFFFFF;
+    background-image: url("../assets/1200px-Google_Magnifying_Glass.svg.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 3px;
+    margin-right: 50px;
+}
+
+.section-header {
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horizontal-container-justify-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.horizontal-container-justify-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-section {
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-color: #000000;
+}
+
+.home-image-container {
+    width: 80%;
+    background-image: 
+        linear-gradient(to right, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgb(0, 0, 0, 1)),
+        url("../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-image {
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: -1;
+}
+
+.home-text-1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+}
+
+.home-text-2 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    position: absolute;
+    top: 500px;
+    right: 75px;
+}
+
+.about-text-padding-consistent {
+    padding: 40px;
+}
+
+.about-text-padding-side-only {
+    padding: 0px 40px;
+}
+
+.large-about-image {
+    height: 600px;
+    object-fit: contain;
+    transform: scaleX(-1);
+    position: relative;
+    z-index:-1;
+}
+
+.small-about-image {
+    height: 400px;
+    object-fit: contain;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-areas: "top-l top top-r" "mid-l mid mid-r" "bot-l bot bot-r";
+    justify-content: space-between;
+}
+
+.product-link {
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+
+.product-name {
+    font-size: 1.5em;
+}
+
+.product-learn-more-text {
+    color: #BF7631;
+    text-decoration: underline;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    width: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.product-image {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-actions {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.contact-text {
+    margin-top: 5px;
+}
+
+.contact-email {
+    padding: 3px 3px;
+    margin: 5px 0;
+}
+
+.contact-message {
+    padding: 3px 3px;
+    margin: 5px 0;
+    resize: none;
+}
+
+.contact-send {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0px;
+}
+
+.send-button {
+    padding: 10px 30px;
+}
+
+.horizontal-container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+}
+
+.footer-social-media-logo {
+    height: 60px;
+    object-fit: contain;
+}
+
+.copyright-text {
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
