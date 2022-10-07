@@ -34,7 +34,7 @@ li a {
     display: block;
     color: #000000;
     text-align: center;
-    padding: 30px 16px;
+    padding: 30px 32px 30px 0px;
     text-decoration: none;
 }
 
@@ -61,15 +61,11 @@ button {
 }
 
 .section-margin {
-    margin: 0px 50px;
+    margin: 0px 75px;
 }
 
 .orange-text {
     color: #BF7631;
-}
-
-.white-text {
-    color: #FFFFFF;
 }
 
 .large-line {
@@ -91,6 +87,7 @@ button {
     align-content: center;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 75px;
 }
 
 .search-image {
@@ -149,7 +146,7 @@ button {
 }
 
 .home-image-container {
-    width: 70%;
+    width: 80%;
     background-image: 
         linear-gradient(to right, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgb(0, 0, 0, 1)),
         url("../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
@@ -163,6 +160,22 @@ button {
     object-fit: contain;
     position: relative;
     z-index: -1;
+}
+
+.home-text-1 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    position: absolute;
+    top: 250px;
+    left: 75px;
+}
+
+.home-text-2 {
+    color: #FFFFFF;
+    font-size: 3rem;
+    position: absolute;
+    top: 500px;
+    right: 75px;
 }
 
 .about-text-padding {
