@@ -35,12 +35,8 @@
             
             <div class="horizontal-container">
                 <div class="center-item-vertically">
-                    <span class="stack-bottom">
-                        <input type="text">
-                    </span>
-        
-                    <span class="stack-second position-right">
-                        <img class="search-image" src="assets/1200px-Google_Magnifying_Glass.svg.png" alt="A black magnifying glass with the handle angled to the bottom right.">
+                    <span>
+                        <input class="search-box" type="text">
                     </span>
                 </div>
 
@@ -69,7 +65,7 @@
         </p>
     </section>
 
-    <section id="about">
+    <section class="section-margin" id="about">
         <p>
             <h1 class="section-header">ABOUT US</h1>
         </p>
@@ -90,11 +86,11 @@
                     </p>
         
                     <div class="vertical-container">
-                        <p>
+                        <p class="about-text-padding">
                             Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.
                         </p>
                 
-                        <p>
+                        <p class="about-text-padding">
                             Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus
                         </p>
                     </div>
@@ -107,7 +103,7 @@
         </div>
     </section>
 
-    <section id="products">
+    <section class="section-margin" id="products">
         <p>
             <h1 class="section-header">OUR PRODUCTS</h1>
         </p>
@@ -123,7 +119,7 @@
                 </p>
                 
                 <div class="horizontal-container-justify-between">
-                    <p>
+                    <p class="product-name">
                         MUNDO BOWLS
                     </p>
         
@@ -157,8 +153,8 @@
                 </p>
                 
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>NATUREZA VASE</h2>
+                    <p class="product-name">
+                        NATUREZA VASE
                     </p>
         
                     <p>
@@ -191,8 +187,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>FEIRA BOWLS</h2>
+                    <p class="product-name">
+                        FEIRA BOWLS
                     </p>
         
                     <p>
@@ -225,8 +221,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>NATUREZA POTS</h2>
+                    <p class="product-name">
+                        NATUREZA POTS
                     </p>
         
                     <p>
@@ -259,8 +255,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>PEDRA VASE</h2>
+                    <p class="product-name">
+                        PEDRA VASE
                     </p>
         
                     <p>
@@ -293,8 +289,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>VIAJA POTS</h2>
+                    <p class="product-name">
+                        VIAJA POTS
                     </p>
         
                     <p>
@@ -327,8 +323,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>SERVIÇO PLATES</h2>
+                    <p class="product-name">
+                        SERVIÇO PLATES
                     </p>
         
                     <p>
@@ -361,8 +357,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>CAMPEÃO VASE</h2>
+                    <p class="product-name">
+                        CAMPEÃO VASE
                     </p>
         
                     <p>
@@ -395,8 +391,8 @@
                 </p>
     
                 <div class="horizontal-container-justify-between">
-                    <p>
-                        <h2>TROCA BOWLS</h2>
+                    <p class="product-name">
+                        TROCA BOWLS
                     </p>
         
                     <p>
@@ -425,7 +421,7 @@
         </div>        
     </section>
 
-    <section id="contact">
+    <section class="section-margin" id="contact">
         <p>
             <h1 class="section-header">CONTACT US</h1>
         </p>
@@ -434,17 +430,23 @@
             <hr class="large-line partial-line-span">
         </div>
 
-        <p>
-            EMAIL
-        </p>
-
-        <p>
-            MESSAGE
-        </p>
-
-        <p>
-            <button type="button">SEND</button>
-        </p>
+        <div class="contact-container">
+            <p class="contact-text">
+                EMAIL
+            </p>
+    
+            <input class="contact-email" type="text">
+    
+            <p class="contact-text">
+                MESSAGE
+            </p>
+    
+            <textarea class="contact-message" name="contact-message" rows="5"></textarea>
+    
+            <p class="contact-send">
+                <button class="send-button" type="button">SEND</button>
+            </p>
+        </div>
     </section>
 
     <footer>

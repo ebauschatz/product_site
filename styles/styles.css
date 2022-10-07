@@ -50,6 +50,7 @@ header {
 
 footer {
     background-color: #BF7631;
+    margin-top: 100px;
 }
 
 button {
@@ -57,6 +58,10 @@ button {
     color: #FFFFFF;
     border: none;
     padding: 10px;
+}
+
+.section-margin {
+    margin: 0px 50px;
 }
 
 .orange-text {
@@ -99,19 +104,14 @@ button {
     align-items: center;
 }
 
-.stack-bottom {
-    display: flex;
-    z-index: 1;
-}
-
-.stack-second {
-    display: flex;
-    z-index: 2;
-}
-
-.position-right {
-    position: relative;
-    right: 20px;
+.search-box {
+    background-color: #FFFFFF;
+    background-image: url("../assets/1200px-Google_Magnifying_Glass.svg.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 3px;
+    margin-right: 20px
 }
 
 .section-header {
@@ -124,8 +124,6 @@ button {
     flex-direction: column;
     align-content: center;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .horizontal-container {
@@ -139,12 +137,13 @@ button {
 }
 
 .about-text-padding {
-    padding-top: 40px;
+    padding: 40px;
 }
 
 .large-about-image {
     height: 600px;
     object-fit: contain;
+    transform: scaleX(-1);
 }
 
 .small-about-image {
@@ -155,7 +154,12 @@ button {
 .products-grid {
     display: grid;
     grid-template-areas: "top-l top top-r" "mid-l mid mid-r" "bot-l bot bot-r";
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.product-name {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .product-container {
@@ -164,6 +168,8 @@ button {
     align-content: center;
     justify-content: space-between;
     width: 400px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .product-image {
@@ -175,6 +181,39 @@ button {
 .product-actions {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.contact-text {
+    margin-top: 5px;
+}
+
+.contact-email {
+    padding: 3px 3px;
+    margin: 5px 0;
+}
+
+.contact-message {
+    padding: 3px 3px;
+    margin: 5px 0;
+    resize: none;
+}
+
+.contact-send {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 0px;
+}
+
+.send-button {
+    padding: 10px 30px;
 }
 
 .footer-social-media-logo {
