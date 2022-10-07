@@ -68,6 +68,10 @@ button {
     color: #BF7631;
 }
 
+.white-text {
+    color: #FFFFFF;
+}
+
 .large-line {
     border-top: 3px solid #000000;
     border-bottom: none;
@@ -136,6 +140,31 @@ button {
     justify-content: space-between;
 }
 
+.home-section {
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    background-color: #000000;
+}
+
+.home-image-container {
+    width: 70%;
+    background-image: 
+        linear-gradient(to right, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgb(0, 0, 0, 1)),
+        url("../assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-image {
+    width: 100%;
+    object-fit: contain;
+    position: relative;
+    z-index: -1;
+}
+
 .about-text-padding {
     padding: 40px;
 }
@@ -144,6 +173,8 @@ button {
     height: 600px;
     object-fit: contain;
     transform: scaleX(-1);
+    position: relative;
+    z-index:-1;
 }
 
 .small-about-image {
@@ -218,10 +249,5 @@ button {
 
 .footer-social-media-logo {
     height: 60px;
-    object-fit: contain;
-}
-
-.hundred-percent-image {
-    width: 100%;
     object-fit: contain;
 }
