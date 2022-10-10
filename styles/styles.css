@@ -303,3 +303,46 @@ button {
     align-items: flex-end;
     padding: 10px;
 }
+
+.product-page-header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.product-page-image {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.product-detail-text {
+    padding: 0px 40px;
+}
+
+.product-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.product-review-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.product-review {
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: 1px solid #d3d3d3;
+    box-shadow: #d3d3d3 5px 5px 5px;
+}
